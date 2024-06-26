@@ -7,9 +7,11 @@
 
    steps to deploy mongodb and mongo express in local machine 
    
+~~~
 kuvectl apply -f mongo-secret.yaml
 kubectl apply -f mongo-deployment.yaml
 kubectl apply -f mongo-service.yaml
 kubectl apply -f mongo-express-cm.yaml 
 kubectl apply -f mongo-express-deployment.yaml
 kubectl apply -f mongo-express-service.yaml
+~~~
